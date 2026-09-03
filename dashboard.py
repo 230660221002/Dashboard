@@ -20,10 +20,10 @@ def load_data():
 
 @st.cache_resource
 def load_model_artifacts():
-    model = joblib.load("model_attrition.joblib")
-    scaler = joblib.load("scaler.joblib")
-    encoders = joblib.load("encoders.joblib")
-    feature_columns = joblib.load("feature_columns.joblib")
+    model = joblib.load("model/model_attrition.joblib")
+    scaler = joblib.load("model/scaler.joblib")
+    encoders = joblib.load("model/encoders.joblib")
+    feature_columns = joblib.load("model/feature_columns.joblib")
     return model, scaler, encoders, feature_columns
 
 df, predicted = load_data()
