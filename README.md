@@ -57,7 +57,7 @@ streamlit run dashboard.py
 
 Setelah perintah di atas dijalankan, dashboard akan otomatis terbuka di browser pada alamat `http://localhost:8501`.
 
-(Opsional) Jika dashboard sudah di-deploy secara online (misalnya melalui Streamlit Community Cloud), cantumkan tautan aksesnya di sini: `<tautan dashboard>`.
+Tautan deploy streamlit: `https://dashboard-edutech.streamlit.app/`.
 
 ## Conclusion
 
